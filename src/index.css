@@ -3,4 +3,14 @@
 .container {
   padding: 20px;
   margin: 0 auto;
+  @apply flex justify-center items-center;
+}
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
 }
