@@ -27,7 +27,7 @@ const Nav = () => {
           }}
           transition={{ delay: 2, duration: 0.5 }}
         >
-          <CiMenuBurger size={30} />
+          <CiMenuBurger size={30} className="" />
         </motion.div>
       </div>
     </div>
